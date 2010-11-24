@@ -210,16 +210,16 @@
         public  void &lt;init&gt;()
       </fullMethod>
       <crap>
-        2.00
+        102.00
       </crap>
       <complexity>
-        1
+        364
       </complexity>
       <coverage>
         0.00
       </coverage>
       <crapLoad>
-        0
+        45
       </crapLoad>
     </method>
     <method>
