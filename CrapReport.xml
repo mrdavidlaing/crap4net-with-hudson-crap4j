@@ -194,17 +194,32 @@
   </stats>
   <methods>
     <method>
-      <package>JsonSchemaUtilities</package>
-      <className>JsonSchemaUtilities</className>
-      <methodName>BuildEnumSchema</methodName>
+      <package>
+        JsonSchemaUtilities
+      </package>
+      <className>
+        Test
+      </className>
+      <methodName>
+        &lt;init&gt;
+      </methodName>
       <methodSignature>
+        ()V
       </methodSignature>
       <fullMethod>
+        public  void &lt;init&gt;()
       </fullMethod>
-      <crap>7</crap>
-      <complexity>0</complexity>
-      <coverage>0</coverage>
-      <crapLoad>0
+      <crap>
+        2.00
+      </crap>
+      <complexity>
+        1
+      </complexity>
+      <coverage>
+        0.00
+      </coverage>
+      <crapLoad>
+        0
       </crapLoad>
     </method>
     <method>
