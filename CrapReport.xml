@@ -204,7 +204,7 @@
       <crap>7</crap>
       <complexity>0</complexity>
       <coverage>0</coverage>
-      <crapLoad>
+      <crapLoad>0
       </crapLoad>
     </method>
     <method>
@@ -218,7 +218,7 @@
       <crap>110</crap>
       <complexity>0</complexity>
       <coverage>0</coverage>
-      <crapLoad>
+      <crapLoad>0
       </crapLoad>
     </method>
   </methods>
