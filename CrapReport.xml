@@ -1,14 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <crap_result>
-  <project />
-  <project_id />
-  <timestamp />
-  <classDirectories />
-  <testClassDirectories />
-  <sourceDirectories />
-  <libClasspaths />
+ <project>
+    C:\Users\jamesa\workspace\test
+  </project>
+  <project_id>
+    1290006074016
+  </project_id>
+  <timestamp>
+    11/17/10 9:01 AM
+  </timestamp>
+  <classDirectories>
+    <classDirectory>
+      C:\Users\jamesa\workspace\test\bin
+    </classDirectory>
+  </classDirectories>
+  <testClassDirectories>
+    <testClassDirectory>
+      C:\Users\jamesa\workspace\test\bin
+    </testClassDirectory>
+  </testClassDirectories>
+  <sourceDirectories>
+    <sourceDirectory>
+      C:\Users\jamesa\workspace\test\src
+    </sourceDirectory>
+  </sourceDirectories>
+  <libClasspaths>
+    <libClasspath>
+      C:\test
+    </libClasspath>
+  </libClasspaths>
   <stats>
-<name>
+    <name>
       Method Crap Stats
     </name>
     <totalCrap>
