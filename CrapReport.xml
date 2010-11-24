@@ -233,10 +233,9 @@
 	public void fullMethod()
       </fullMethod>
       <crap>110</crap>
-      <complexity>0</complexity>
-      <coverage>0</coverage>
-      <crapLoad>0
-      </crapLoad>
+      <complexity>264</complexity>
+      <coverage>0.00</coverage>
+      <crapLoad>35</crapLoad>
     </method>
   </methods>
 </crap_result>
