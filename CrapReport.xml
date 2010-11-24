@@ -227,8 +227,10 @@
       <className>JsonSchemaUtilities</className>
       <methodName>BuildTypeSchema</methodName>
       <methodSignature>
+	()V
       </methodSignature>
       <fullMethod>
+	public void fullMethod()
       </fullMethod>
       <crap>110</crap>
       <complexity>0</complexity>
