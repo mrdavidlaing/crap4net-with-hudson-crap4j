@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Go" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <Target Name="Go">
+	<RemoveDir Directories="reports" Condition="Exists('reports')"/>
+    <MakeDir Directories="reports" Condition="!Exists('reports')" />
+	
+	<XslTransformation XslInputPath="report.xslt" 
+		XmlInputPaths="CrapReport.xml" 
+		OutputPaths="reports/index.html" />
+	<XslTransformation XslInputPath="detail.xslt" 
+		XmlInputPaths="CrapReport.xml" 
+		OutputPaths="reports/detail.html" />
+	<XslTransformation XslInputPath="detail_complexity.xslt" 
+		XmlInputPaths="CrapReport.xml" 
+		OutputPaths="reports/detail_complexity.html" />		
+	<XslTransformation XslInputPath="detail_coverage.xslt" 
+		XmlInputPaths="CrapReport.xml" 
+		OutputPaths="reports/detail_coverage.html" />		
+	<XslTransformation XslInputPath="detail_crap.xslt" 
+		XmlInputPaths="CrapReport.xml" 
+		OutputPaths="reports/detail_crap.html" />		
+	<XslTransformation XslInputPath="detail_crap_load.xslt" 
+		XmlInputPaths="CrapReport.xml" 
+		OutputPaths="reports/detail_crap_load.html" />	
+  </Target>
+
+</Project>
